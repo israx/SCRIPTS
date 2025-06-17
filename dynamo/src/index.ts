@@ -224,10 +224,10 @@ async function processTable(
 async function main() {
   try {
     // Configuration
-    const tableName = "AgentEndpoint"
-    const missingAttributeName = 'AccountId';
-    const newAttributeName = 'AccountId';
-    const keyAttributes = ["AgentArn", "EndpointName"];// PK;SK
+    const tableName = "TableName"
+    const missingAttributeName = 'AttributeName';
+    const newAttributeName = 'AttributeName';
+    const keyAttributes = ["PK", "SK"];// PK;SK
 
     console.log('DynamoDB Attribute Updater');
     console.log('==========================');
